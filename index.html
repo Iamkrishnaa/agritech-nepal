@@ -8,10 +8,12 @@
         <!-- Bootstrap -->
         <link href="css/bootstrap.min.css" rel="stylesheet">
         <link href="css/style.css" rel="stylesheet" type="text/css">
-        <link href="css/footer.css" rel="stylesheet" type="text/css">
 
     </head>
     <body>
+      <!-- The below code is for loader-->
+      <div id="loader" class="center"></div> 
+
       <!--NavBar-->
       <div class="container-fluid px-0">
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top mynav">
@@ -94,24 +96,24 @@
           </ol>
           <div class="carousel-inner">
             <div class="carousel-item active">
-              <img class="d-block w-100" src="https://source.unsplash.com/1920x1080/?nature,water" alt="First slide">
+              <img class="d-block w-100" src="https://source.unsplash.com/1920x1080/?nature,agriculture" alt="First slide">
               <div class="carousel-caption d-none d-md-block">
-                <h5>First Slide</h5>
+                <h3>First Slide</h3>
                 <p>First Slide</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="https://source.unsplash.com/random/1920x1080" alt="Second slide">
+              <img class="d-block w-100" src="https://source.unsplash.com/1920x1080/?agriculture" alt="Second slide">
               <div class="carousel-caption d-none d-md-block">
-                <h5>First Slide</h5>
-                <p>First Slide</p>
+                <h3>Second Slide</h3>
+                <p>Second Slide</p>
               </div>
             </div>
             <div class="carousel-item">
-              <img class="d-block w-100" src="https://source.unsplash.com/1920x1080/?nature,thunder" alt="Third slide">
+              <img class="d-block w-100" src="https://source.unsplash.com/1920x1080/?nature,crops" alt="Third slide">
               <div class="carousel-caption d-none d-md-block">
-                <h5 style="color: red;">First Slide</h5>
-                <p>First Slide</p>
+                <h3>Second Slide</h3>
+                <p>Second Slide</p>
               </div>
             </div>
           </div>
@@ -125,6 +127,12 @@
           </a>
         </div>
       </div>
+
+      <section class="container-fluid">
+        <div class="container"></div>
+      </section>
+
+      <button onclick="topFunction()" id="goUp" title="Go to top"><i class="fas fa-arrow-circle-up"></i></button>
 
       <!-- Footer -->
       <div class="container-fluid px-0">
@@ -273,5 +281,6 @@
         <!-- Include all compiled plugins (below), or include individual files
         as needed -->
         <script src="js/bootstrap.min.js"></script>
+        <script src="/js/script.js"></script>
     </body>
 </html>
