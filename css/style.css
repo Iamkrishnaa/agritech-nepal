@@ -1,0 +1,36 @@
+html, body{
+    scroll-behavior: smooth;
+}
+/* the below lines will change navbar according to my choice */
+.mynav a{
+    margin-right: 30px;
+    color: #fff !important;
+    border-bottom: 2px solid transparent;
+}
+
+.mynav a:hover{
+    border-bottom: 3px solid #fff;
+}
+.active a{
+    border-bottom: 3px solid #fff;
+    font-weight: 600;
+}
+
+.dropdown-menu a{
+    color: red !important;
+}
+
+.carousel {
+    max-height: 100vh;
+    max-width: 100%;
+}
+.carousel .carousel-inner {
+    max-height:100vh;  
+    position: relative;  
+}
+.carousel-caption{
+    background-color: rgba(0,0,0,0.4);
+    border-radius: 20px;
+    position: absolute;
+    bottom: 15% !important;
+}
