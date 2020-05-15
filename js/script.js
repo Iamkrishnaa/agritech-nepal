@@ -22,7 +22,7 @@ var mybutton = document.getElementById("goUp");
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 300 || document.documentElement.scrollTop > 300) {
+  if (document.body.scrollTop > 1000 || document.documentElement.scrollTop > 1000) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
