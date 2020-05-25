@@ -205,7 +205,7 @@ below code is for goup button
     border-bottom: 3px solid silver;
 }
 
-.list-inline-item a{
+/* .list-inline-item a{
     border: 2px solid white;
     border-radius: 30%;
     font-size: 24px;
@@ -218,8 +218,8 @@ below code is for goup button
 .list-inline-item a:hover{
     border: 2px solid white !important;
     cursor: pointer;
-}
-.footer-facebook a{
+} */
+/* .footer-facebook a{
     background-color: #3b5998;
 }
 .footer-twitter a{
@@ -230,5 +230,5 @@ below code is for goup button
 }
 .footer-linkedin a{
     background-color: #0072b1;
-}
+} */
 /*Footer design ends*/
